@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>曲面全覆盖压触皮肤 | Tactile Sensor for Complex Surfaces</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: "Segoe UI", "微软雅黑", Arial, sans-serif; margin: 0; background: #f7f9fa; color: #222; }
+    header { background: #2b3a4b; color: #fff; padding: 2rem 1rem 1rem 1rem; text-align: center; }
+    header h1 { margin: 0 0 0.5rem 0; font-size: 2.2rem; }
+    header p { margin: 0; font-size: 1.2rem; }
+    nav { background: #eaeaea; padding: 0.5rem 0; text-align: center; }
+    nav a { color: #2b3a4b; text-decoration: none; margin: 0 1.5rem; font-weight: bold; }
+    .container { max-width: 900px; margin: 2rem auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #0001; padding: 2rem; }
+    h2 { color: #2b3a4b; margin-top: 2rem; }
+    .features { display: flex; flex-wrap: wrap; gap: 2rem; margin: 2rem 0; }
+    .feature { flex: 1 1 250px; background: #f2f6fa; border-radius: 8px; padding: 1.5rem; box-shadow: 0 1px 4px #0001; }
+    .feature img { width: 60px; height: 60px; display: block; margin: 0 auto 1rem auto; }
+    .gallery { display: flex; flex-wrap: wrap; gap: 1.5rem; margin: 2rem 0; }
+    .gallery img { max-width: 100%; border-radius: 6px; box-shadow: 0 1px 6px #0002; }
+    .cta { background: #2b3a4b; color: #fff; border-radius: 8px; padding: 2rem; text-align: center; margin: 2rem 0; }
+    .cta h3 { margin-top: 0; }
+    .cta a { display: inline-block; margin-top: 1rem; background: #f9c846; color: #2b3a4b; padding: 0.8rem 2rem; border-radius: 4px; font-weight: bold; text-decoration: none; }
+    footer { text-align: center; color: #888; font-size: 0.95rem; margin: 2rem 0 1rem 0; }
+    @media (max-width: 700px) {
+      .features, .gallery { flex-direction: column; }
+      .container { padding: 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>曲面全覆盖压触皮肤</h1>
+    <p>为机器人、智能设备等复杂曲面提供高一致性、可定制的触觉传感解决方案</p>
+  </header>
+  <nav>
+    <a href="#features">产品亮点</a>
+    <a href="#tech">技术方案</a>
+    <a href="#gallery">案例展示</a>
+    <a href="#contact">联系我们</a>
+  </nav>
+  <div class="container">
+    <section id="features">
+      <h2>产品亮点</h2>
+      <div class="features">
+        <div class="feature">
+          <img src="https://img.icons8.com/ios-filled/100/2b3a4b/robot-2.png" alt="全覆盖">
+          <h3>曲面全覆盖</h3>
+          <p>创新的柔性磁体+霍尔阵列结构，适配任意复杂曲面，实现大面积、无缝贴合的压触感知。</p>
+        </div>
+        <div class="feature">
+          <img src="https://img.icons8.com/ios-filled/100/2b3a4b/engineering.png" alt="自研建模">
+          <h3>自研建模软件</h3>
+          <p>自研建模工具，支持曲面分割、补强板定位、FPC/PCB设计，快速完成结构与传感器布局设计。</p>
+        </div>
+        <div class="feature">
+          <img src="https://img.icons8.com/ios-filled/100/2b3a4b/settings.png" alt="定制化">
+          <h3>支持定制化</h3>
+          <p>可根据客户需求，定制尺寸、阵列密度、接口协议等，满足多样化应用场景。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="tech">
+      <h2>技术方案</h2>
+      <ul>
+        <li><b>柔性磁体层</b>：采用高性能磁粉与硅胶混合注塑成型，支持厚度充磁/单面多级充磁，磁场分布均匀，灵敏度高。</li>
+        <li><b>硬质基底层</b>：复杂曲面结构，内壁精确开槽，补强板嵌入，保证霍尔阵列与磁体间距一致。</li>
+        <li><b>霍尔阵列FPC/PCB</b>：高密度柔性电路板，支持3x3mm及更小封装，阵列间距可定制，CAN/串口等多种数据接口。</li>
+        <li><b>自研设计软件</b>：自动分割曲面、生成补强板与FPC走线，极大提升设计效率。</li>
+      </ul>
+      <div style="text-align:center;margin:2rem 0;">
+        <img src="./figures/WarpFpcDiagramOnIrregularSurface.jpg" alt="结构示意" style="max-width:90%;border-radius:8px;box-shadow:0 2px 8px #0002;">
+        <div style="color:#888;font-size:0.95rem;">▲ 复杂曲面结构与FPC补强板示意</div>
+      </div>
+      <ul>
+        <li><b>高一致性</b>：补强板与壳体槽精准配合，保证每个霍尔元件与磁体的距离一致，提升测量一致性。</li>
+        <li><b>易于集成</b>：支持与主控板、上位机无缝对接，提供完整软硬件方案。</li>
+      </ul>
+    </section>
+
+    <section id="gallery">
+      <h2>案例展示</h2>
+      <div class="gallery">
+        <div style="flex:1;">
+          <img src="./figures/tsbhe_prototype_4.jpg" alt="FPC补强板实物">
+          <div style="color:#888;font-size:0.95rem;">FPC及补强板实物</div>
+        </div>
+        <div style="flex:1;">
+          <img src="./figures/tsbhe_prototype_1.jpg" alt="结构原理图">
+          <div style="color:#888;font-size:0.95rem;">结构原理图：磁体-壳体-霍尔阵列</div>
+        </div>
+        <div style="flex:1;">
+          <img src="./figures/surface_subdivision_catmull_clark.png" alt="曲面细分示意">
+          <div style="color:#888;font-size:0.95rem;">曲面细分与补强板自动布局</div>
+        </div>
+        <div style="flex:1;">
+          <img src="./figures/planar_sensor_can_transceiver.jpeg" alt="CAN接口硬件">
+          <div style="color:#888;font-size:0.95rem;">CAN接口硬件实物</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="contact">
+      <h3>欢迎合作与定制</h3>
+      <p>
+        我们可为机器人、智能设备、医疗器械等行业提供曲面全覆盖压触皮肤的定制化设计与生产服务。<br>
+        如需咨询、定制或获取更多资料，请联系我们！
+      </p>
+      <a href="mailto:contact@yourcompany.com">立即联系</a>
+    </section>
+  </div>
+  <footer>
+    &copy; 2025 曲面全覆盖压触皮肤 | 保留所有权利
+  </footer>
+</body>
+</html>
